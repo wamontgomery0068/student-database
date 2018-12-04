@@ -1,0 +1,20 @@
+.NavBar {
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    /* border: solid black; */
+    background-color: hsl(199, 69%, 53%);
+};
+
+.Home {
+    margin-left: 2%;
+};
+
+.DevMountain {
+    margin-right: 2%;
+};

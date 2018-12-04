@@ -1,0 +1,85 @@
+.MainContent {
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    /* border: solid black; */
+    background-color: hsl(0, 0%, 13%);
+} 
+
+.Card_Outline {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    height: 58vh;
+    width: 40vw;
+    background-color: hsl(220, 1%, 53%);
+    /* border: solid white; */
+    margin: 1%;
+}
+
+.Page_Number {
+    height: 2vh;
+    width: 40vw;
+    margin-left: 90%;
+    /* border: solid white; */
+    /* background-color: blueviolet; */
+}
+
+.Student_Name {
+    height: 5vh;
+    width: 60vw;
+    /* border: solid white; */
+    /* background-color: blue; */
+    margin-inline-start: 4%;
+}
+
+.First_Information {
+    height: 8vh;
+    width: 60vw;
+    /* border: solid white; */
+    /* background-color: green; */
+    margin-inline-start: 4%;
+
+}
+
+.Second_Information {
+    height: 37vh;
+    width: 60vw;
+    /* border: solid white; */
+    /* background-color: orange; */
+    margin-inline-start: 4%;
+}
+
+li {
+    list-style-type: none;
+}
+
+.Bottom_Nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+    height: 5vh;
+    width: 40vw;
+    /* border: solid white; */
+    /* background-color: hsl(0, 0%, 13%); */
+    /* background-color: white; */
+    margin-bottom: 6%
+}
+
+button {
+    border: none;
+    background: none;
+    font-size: 20px;
+    color: hsl(220, 1%, 53%);
+}
