@@ -37,7 +37,7 @@ class MainContent extends Component {
             this.setState( {counter: this.state.counter -1} )
         ;}
     };
-
+    
     handleClickNext(){
         if (this.state.counter === this.state.students) {
             this.setState ( { counter:0 } )
@@ -74,46 +74,3 @@ class MainContent extends Component {
 };
 
 export default MainContent;
-
-
-
-{/* <div className = "MainContent">
-
-    <div className = "Student_Card">
-
-        <div className = "Page_Number">
-
-            { this.state.counter }
-
-        </div>
-
-        <div className = "Student_Name">
-
-            { DisplayData[0]}
-
-        </div>
-
-        <div className = "First_Information"></div>
-
-        <div className = "Second_information"></div>
-
-    </div>
-
-    <div className = "Bottom_Nav">
-
-        <div className = "Previous_Button">
-
-            <button onClick = { this.handleClickPrevious }> Previous </button>
-
-        </div>
-
-        <div className = "Next_Button">
-
-        <button onClick = { this.handleClickNext }> Next </button>
-
-        </div>
-
-    </div>
-
-</div> */}
-
